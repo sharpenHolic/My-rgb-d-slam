@@ -51,18 +51,9 @@ https://www.cnblogs.com/gaoxiang12/p/4739934.html
 加入位姿图来进行优化
 
 顶点和边有不同的类型，这要看我们想求解什么问题。由于我们是3D的slam，所以顶点取成了相机姿态：g2o::VertexSE3，而边则是连接两个VertexSE3的边：g2o::EdgeSE3
-
-![image-20201012084808125](/home/xgq/.config/Typora/typora-user-images/image-20201012084808125.png)
-
-
-
 V ：节点
-
-![image-20201012084832900](/home/xgq/.config/Typora/typora-user-images/image-20201012084832900.png)
-
 E：边
 
-![image-20201012084845228](/home/xgq/.config/Typora/typora-user-images/image-20201012084845228.png)
 
 ### 关于cmake知识
 
