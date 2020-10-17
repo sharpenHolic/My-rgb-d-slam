@@ -1,6 +1,15 @@
 ![image-20201016102208673](/home/xgq/.config/Typora/typora-user-images/image-20201016102208673.png)
 
 
+##`环境`
+opencv3.4.0
+pcl
+eigen
+
+
+
+
+
 
 ## 跟着高博完成一个RGBD-SLAM
 
